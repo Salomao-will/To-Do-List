@@ -1,9 +1,15 @@
+import { ToDoList } from '../../components/toDoList';
+import { Loguin } from '../loguin';
 import './style.sass';
 
 export const Home = () => {
+
   return (
-    <div>
-      <h1>hello</h1>
-    </div>
+
+    <main>
+      <Loguin />
+      <ToDoList />
+    </main>
+
   )
 }
